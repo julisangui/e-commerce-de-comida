@@ -180,9 +180,9 @@ buyFormCloseButton.addEventListener("click", () => {
 
 const imagenesProductos = {};
 
-document.querySelectorAll(".food").forEach((tarjeta) => {
-  const nombre = tarjeta.querySelector(".description").textContent.trim();
-  const imagen = tarjeta.querySelector(".food-img").src;
+document.querySelectorAll(".food").forEach((card) => {
+  const nombre = card.querySelector(".description").textContent.trim();
+  const imagen = card.querySelector(".food-img").src;
   imagenesProductos[nombre] = imagen;
 });
 
