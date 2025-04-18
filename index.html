@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <title>E-commerce de comida</title>
+</head>
+
+<body>
+    <div class="buy-food-seccion">
+        <h1>Desserts</h1>
+        <div class="food-container">
+            <div class="food">
+                <img src="assets/image-waffle-desktop.jpg" alt="" class="food-img">
+                <button class="buy"><img src="assets/icon-add-to-cart.svg" alt="">Add to Cart</button>
+                <p class="name">Waffle</p>
+                <p class="description">Waffle with Berries</p>
+                <p class="price">$6.50</p>
+            </div>
+            <div class="food">
+                <img src="assets/image-creme-brulee-desktop.jpg" alt="" class="food-img">
+                <button class="buy"><img src="assets/icon-add-to-cart.svg" alt="">Add to Cart</button>
+                <p class="name">Crème Brûlée</p>
+                <p class="description">Vanilla Bean Crème Brûlée</p>
+                <p class="price">$7.00</p>
+            </div>
+            <div class="food">
+                <img src="assets/image-macaron-desktop.jpg" alt="" class="food-img">
+                <button class="buy"><img src="assets/icon-add-to-cart.svg" alt="">Add to Cart</button>
+                <p class="name">Macaron</p>
+                <p class="description">Macaron Mix of Five</p>
+                <p class="price">$8.00</p>
+            </div>
+            <div class="food">
+                <img src="assets/image-tiramisu-desktop.jpg" alt="" class="food-img">
+                <button class="buy"><img src="assets/icon-add-to-cart.svg" alt="">Add to Cart</button>
+                <p class="name">Tiramisu</p>
+                <p class="description">Classic Tiramisu</p>
+                <p class="price">$5.50</p>
+            </div>
+            <div class="food">
+                <img src="assets/image-baklava-desktop.jpg" alt="" class="food-img">
+                <button class="buy"><img src="assets/icon-add-to-cart.svg" alt="">Add to Cart</button>
+                <p class="name">Baklava</p>
+                <p class="description">Pistachio Baklava</p>
+                <p class="price">$4.00</p>
+            </div>
+            <div class="food">
+                <img src="assets/image-meringue-desktop.jpg" alt="" class="food-img">
+                <button class="buy"><img src="assets/icon-add-to-cart.svg" alt="">Add to Cart</button>
+                <p class="name">Pie</p>
+                <p class="description">Lemon Meringue Pie</p>
+                <p class="price">$5.00</p>
+            </div>
+            <div class="food">
+                <img src="assets/image-cake-desktop.jpg" alt="" class="food-img">
+                <button class="buy"><img src="assets/icon-add-to-cart.svg" alt="">Add to Cart</button>
+                <p class="name">Cake</p>
+                <p class="description">Red Velvet Cake</p>
+                <p class="price">$4.50</p>
+            </div>
+            <div class="food">
+                <img src="assets/image-brownie-desktop.jpg" alt="" class="food-img">
+                <button class="buy"><img src="assets/icon-add-to-cart.svg" alt="">Add to Cart</button>
+                <p class="name">Brownie</p>
+                <p class="description">Salted Caramel Brownie</p>
+                <p class="price">$5.50</p>
+            </div>
+            <div class="food">
+                <img src="assets/image-panna-cotta-desktop.jpg" alt="" class="food-img">
+                <button class="buy"><img src="assets/icon-add-to-cart.svg" alt="">Add to Cart</button>
+                <p class="name">Panna Cotta</p>
+                <p class="description">Vanilla Pana Cotta</p>
+                <p class="price">$6.50</p>
+            </div>
+        </div>
+    </div>
+    <div class="buy-box">
+        <h3>Your Cart (<span class="quantity">0</span>)</h3>
+        <div class="empty-buy-box">
+            <img src="assets/illustration-empty-cart.svg" alt="">
+            <p class="empty-buy-box-advice">Your added items will appear here</p>
+        </div>
+        <div class="carbon-neutral-message">
+            <img src="assets/icon-carbon-neutral.svg">
+            <p>This is a <span>carbon-neutral</span> delivery</p>
+        </div>
+        <button class="confirm-order">Confirm Order</button>
+    </div>
+    <div class="buy-process-background">
+        <div class="buy-process">
+            <form class="buy-form">
+                <div class="form-tittle">
+                    <h2>Buy Process</h2>
+                    <button type="button" class="remove"><i class='bi bi-x-lg'></i></button>
+                </div>
+
+                <div class="form-div-row">
+                    <div class="form-div">
+                        <label>Full Name*</label>
+                        <input type="text" name="name" required />
+                    </div>
+                    <div class="form-div">
+                        <label>Direction*</label>
+                        <input type="text" name="direction" required />
+                    </div>
+                </div>
+
+                <div class="form-div-row">
+                    <div class="form-div">
+                        <label>Number*</label>
+                        <input type="number" name="street-number" required />
+                    </div>
+                    <div class="form-div">
+                        <label>Apartment and floor</label>
+                        <input type="text" name="apartment-and-floor" />
+                    </div>
+                </div>
+
+                <div class="form-div-row">
+                    <div class="form-div">
+                        <label>Cardholder*</label>
+                        <input type="text" name="cardholder" required />
+                    </div>
+                    <div class="form-div">
+                        <label>Card Number*</label>
+                        <input type="number" name="card-number" placeholder="Ingresa un valor cualquiera" required />
+                    </div>
+                </div>
+
+                <div class="form-div-row">
+                    <div class="form-div">
+                        <label>Expiration Date*</label>
+                        <input type="date" name="expiration-date" required />
+                    </div>
+                    <div class="form-div">
+                        <label>CVC/CVV*</label>
+                        <input type="number" name="CVC-CVV" placeholder="Ingresa un valor cualquiera" required/>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-button">Confirm Purchase</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
